@@ -8,7 +8,7 @@ Destination Earth (DestinE) is a European Union initiative implemented by ECMWF,
 
 ## Open an experience
 
-**Public deployment status: pending.** These configured GitHub Pages destinations derive from this repository's remote. Local build verification does not imply that public destinations are live.
+**Public deployment status: live.** The Book, Lab, galleries and all 32 notebooks are published on GitHub Pages. The deployment passed native and browser verification, and the public links below have been checked over HTTPS.
 
 | Experience | Configured destination — deployment pending | Source |
 |---|---|---|
