@@ -10,7 +10,7 @@ Destination Earth (DestinE) is a European Union initiative implemented by ECMWF,
 
 **Public deployment status: live.** The Book, Lab, galleries and all 32 notebooks are published on GitHub Pages. The deployment passed native and browser verification, and the public links below have been checked over HTTPS.
 
-| Experience | Configured destination — deployment pending | Source |
+| Experience | Live destination | Source |
 |---|---|---|
 | Landing page | [Earth / Lab](https://jltobias.github.io/JupyterLite-Destination-Earth-Digital-Twin/) | [HTML](web/index.html) |
 | Learning book | [Read the book](https://jltobias.github.io/JupyterLite-Destination-Earth-Digital-Twin/book/) | [Introduction](book/index.md) |
@@ -72,7 +72,7 @@ python scripts/browser_smoke.py
 
 The smoke test serves the built artifact at its configured repository prefix and checks gallery controls, book navigation and fresh Pyodide kernels. Use `--browser-executable PATH` for an existing Chromium installation, `--gallery-only` for gallery diagnostics, or `--notebooks-only --notebooks 14-maps` for a targeted widget check. Reports go to `_executed/browser-smoke-report.json`; native execution results remain separate.
 
-The GitHub Actions workflow validates/builds pull requests and deploys successful `main` pushes through GitHub Pages. In repository **Settings → Pages**, select **GitHub Actions** as the source. Publication and any environment approval remain separate from local verification; keep pending labels until a deployed URL has actually been observed.
+The GitHub Actions workflow validates/builds pull requests and deploys successful `main` pushes through GitHub Pages. This repository uses **GitHub Actions** as its Pages source. For a fork, select that source in **Settings → Pages**. Check the workflow result and public URLs after each deployment.
 
 ## Authentic data is a separate path
 
