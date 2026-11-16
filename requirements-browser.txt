@@ -1,0 +1,2 @@
+# Browser verification only; native publishing dependencies are in requirements.lock.
+playwright==1.65.2

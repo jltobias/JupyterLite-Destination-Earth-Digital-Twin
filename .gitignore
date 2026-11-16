@@ -1,0 +1,16 @@
+.venv/
+node_modules/
+.tools/
+.cache/
+_build/
+_site/
+_lite/
+_executed/
+__pycache__/
+.pytest_cache/
+.jupyterlite.doit.db
+pytest-cache-files-*/
+*.pyc
+_bmad/
+_bmad.setup-*/
+.DS_Store

@@ -1,0 +1,61 @@
+version: 1
+project:
+  id: destine-learning-lab
+  title: Destination Earth Learning Lab
+  description: An independent book with original synthetic experiments
+  github: https://github.com/jltobias/JupyterLite-Destination-Earth-Digital-Twin
+  bibliography:
+    - book/references.bib
+  toc:
+    - file: book/index.md
+    - file: book/coverage.md
+    - file: book/official-access.md
+    - title: Understand and access
+      children:
+        - file: content/01-system.ipynb
+        - file: content/02-grids.ipynb
+        - file: content/03-access.ipynb
+        - file: content/04-validation.ipynb
+        - file: content/05-labelled-arrays.ipynb
+    - title: Analyze and question
+      children:
+        - file: content/06-area-means.ipynb
+        - file: content/07-climate.ipynb
+        - file: content/08-extremes.ipynb
+        - file: content/09-water.ipynb
+        - file: content/10-wind.ipynb
+        - file: content/11-interpolation.ipynb
+        - file: content/12-ensembles.ipynb
+        - file: content/13-verification.ipynb
+    - title: Map and communicate
+      children:
+        - file: content/14-maps.ipynb
+        - file: content/15-projections.ipynb
+        - file: content/16-terrain.ipynb
+        - file: content/17-globe.ipynb
+        - file: content/18-time.ipynb
+        - file: content/19-dashboard.ipynb
+    - title: Reproduce and decide
+      children:
+        - file: content/20-performance.ipynb
+        - file: content/21-reproducibility.ipynb
+        - file: content/22-capstone.ipynb
+    - title: Connect to DestinE workflows
+      children:
+        - file: content/23-dte-workflows.ipynb
+        - file: content/24-polytope.ipynb
+        - file: content/25-earthkit-export.ipynb
+        - file: content/26-data-lake.ipynb
+        - file: content/27-ai-validation.ipynb
+        - file: content/28-regional-extremes.ipynb
+    - title: Explore Earth-system components
+      children:
+        - file: content/29-land.ipynb
+        - file: content/30-waves.ipynb
+        - file: content/31-sea-ice.ipynb
+        - file: content/32-ocean.ipynb
+site:
+  template: book-theme
+  title: Earth / Lab
+  options:
+    logo_text: Earth / Lab
